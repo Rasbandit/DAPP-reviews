@@ -1,5 +1,5 @@
-const ContractName = artifacts.require("ContractName");
+const SchloadCoin = artifacts.require("SchloadCoin");
 
 module.exports = async function(deployer) {
-	await deployer.deploy(ContractName)
+	await deployer.deploy(SchloadCoin)
 };
